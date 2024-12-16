@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.uvm.tiempoefectivo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.uvm.tiempoefectivo"
@@ -40,8 +40,10 @@ android {
 }
 
 dependencies {
-    implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
-    implementation("com.google.firebase:firebase-firestore-ktx:24.9.1")
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.1")
+    implementation("androidx.compose.material:material-icons-core:1.7.6") // Reemplaza 1.4.3 con la versión que estés usando
+    implementation("androidx.compose.material:material-icons-extended-android:1.7.6") // Reemplaza 1.4.3 con la versión que estés usando
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -50,6 +52,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.navigation.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
