@@ -1,5 +1,6 @@
 package com.uvm.tiempoefectivo
 
+import com.google.firebase.FirebaseApp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.graphics.Color
 import android.os.Bundle
@@ -18,6 +19,7 @@ import com.uvm.tiempoefectivo.ui.theme.TiempoEfectivoTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this) // Inicializa Firebase
         setContent {
             TiempoEfectivoTheme {
                 // A surface container using the 'background' color from the theme
