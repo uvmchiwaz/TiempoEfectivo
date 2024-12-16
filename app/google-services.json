@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857511226176",
+    "project_id": "tiempoefectivo-4a42a",
+    "storage_bucket": "tiempoefectivo-4a42a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857511226176:android:0e35849ec53e828b34e8a5",
+        "android_client_info": {
+          "package_name": "com.uvm.tiempoefectivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzJOxxuFnIIv3nVwLeVOAgrdQ3UsY_Z90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
